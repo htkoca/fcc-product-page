@@ -1,3 +1,70 @@
 body {
   background-color: hsl(0, 0%, 75%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+ h1,  h2,  h3,  h4,  h5,  h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Orbitron', sans-serif;
+  line-height: 1.5;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 300;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: hsl(0, 0%, 5%);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  z-index: 1;
+}
+
+.header .navbar-brand img {
+  max-width: 5rem;
+}
+
+.footer {
+  background-color: hsl(0, 0%, 15%);
+  color: hsl(0, 0%, 95%);
+}
+
+.section, .footer {
+  padding: 2rem 0;
+}
+
+.section-hero {
+  padding-top: 4.85rem;
+  background-color: black;
+  color: hsl(0, 0%, 95%);
+}
+
+.section-about {
+
+}
+
+.section-video {
+  background-color: hsl(0, 0%, 15%);
+}
+
+.section-products {
+  background-color: white;
+}
+
+.section-subscribe {
+
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+
+  }
+  .d-flex {
+    display: flex;
+  }
 }
